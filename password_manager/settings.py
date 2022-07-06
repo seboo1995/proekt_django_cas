@@ -37,17 +37,17 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
     'password_app',
     'rest_framework',
     "rest_framework.authtoken",
     'rest_auth',
     'django.contrib.sites',
-    'allauth',
-    'allauth.account',
     'rest_auth.registration',
+<<<<<<< HEAD
     'allauth.socialaccount',
     'corsheaders',
+=======
+>>>>>>> a8f0be7668b036e5579bc6dba2b99f924d074f9b
 ]
 
 SITE_ID = 1
@@ -141,7 +141,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
-STATIC_URL = '/static/'
+#STATIC_URL = '/static/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
