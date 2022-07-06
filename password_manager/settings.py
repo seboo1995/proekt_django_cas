@@ -43,11 +43,7 @@ INSTALLED_APPS = [
     'rest_auth',
     'django.contrib.sites',
     'rest_auth.registration',
-<<<<<<< HEAD
-    'allauth.socialaccount',
     'corsheaders',
-=======
->>>>>>> a8f0be7668b036e5579bc6dba2b99f924d074f9b
 ]
 
 SITE_ID = 1
