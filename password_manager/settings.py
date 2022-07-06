@@ -40,10 +40,8 @@ INSTALLED_APPS = [
     'password_app',
     'rest_framework',
     "rest_framework.authtoken",
-    'rest_auth',
-    'django.contrib.sites',
-    'rest_auth.registration',
     'corsheaders',
+    'django.contrib.staticfiles'
 ]
 
 SITE_ID = 1
@@ -170,4 +168,3 @@ CORS_ALLOW_HEADERS = [
     "x-csrftoken",
     "x-requested-with",
 ]
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
